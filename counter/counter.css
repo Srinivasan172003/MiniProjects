@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#valueBox{
+    margin: 0px 10px;
+}
+
+#increement{
+    background-color: greenyellow;
+    border: none;
+    height: 30px;
+    width: 30px;
+    color: black;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+#resetButton{
+    background-color: blue;
+    border: none;
+    height: 30px;
+    width: 50px;
+    color: white;
+    font-size: 12px;
+    margin: 0px 10px;
+}
+
+#decreement{
+    background-color: red;
+    border: none;
+    height: 30px;
+    width: 30px;
+    color: white;
+    font-size: 20px;
+    margin: 0px 10px;
+}
