@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pagination.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="pageBody"></div>
+    </div>
+    <div id="pagination">
+        <button class="pageButton" onclick="changePage('prev')">&#9664;</button>
+        <div onclick="changePage('prevPrev')" id="prevPrevPage"></div>
+        <div onclick="changePage('prev')" id="prevPage"></div>
+        <div id="currentPage"></div>
+        <div onclick="changePage('next')" id="nextPage"></div>
+        <div onclick="changePage('nextNext')" id="nextNextPage"></div>
+        <button class="pageButton" onclick="changePage('next')">&#9654;</button>
+    </div>
+    <script type="text/javascript" src="pagination.js"></script>
+</body>
+
+</html>
