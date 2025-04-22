@@ -1,0 +1,196 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(Web-designer-1.webp);
+  background-size: cover;
+  font-family: sans-serif;
+  background-position: cover;
+}
+.menu-bar{
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  background: rgb(0,100,0);
+  text-align: center;
+}
+.menu-bar ul{
+  display: inline-flex;
+  list-style: none;
+}
+.menu-bar ul li{
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.menu-bar ul li a{
+  text-decoration:transparent;
+  color: white;
+}
+.active, .menu-bar ul li:hover
+{
+  background-color: #40ed1432;
+  border-radius: 3px;
+}
+.menu-bar .fa
+{
+  margin-top: 5px;
+  margin-right: 8px;
+}
+.sub-menu-1
+{
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 15px;
+  margin-left: -15px;
+  border-radius: 50px;
+ 
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+  color: rgb(0, 0, 0);
+}
+ 
+.sub-menu-2
+{
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-2
+{
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 15px;
+  margin-left: -15px;
+  border-radius: 80px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover
+{
+  color: rgb(0, 0, 0);
+}
+ 
+.sub-class-3
+{
+  display:none;
+}
+.menu-bar ul li:hover .sub-class-3
+{
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 15px;
+  margin-left: -15px;
+  border-radius: 80px;
+}
+.menu-bar ul li:hover .sub-class-3 ul li a:hover
+{
+  color: rgb(0, 0, 0);
+}
+ 
+.sub-class-4
+{
+   display: none;
+}
+.menu-bar ul li:hover .sub-class-4
+{
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 15px;
+  margin-left: -15px;
+  border-radius: 80px;
+}
+.menu-bar ul li:hover .sub-class-4 ul li a:hover
+{
+  color: rgb(0, 0, 0);
+}
+ 
+.sub-class-5
+{
+  display: none;
+}
+.menu-bar ul li:hover .sub-class-5
+{
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 15px;
+  margin-left: -15px;
+  border-radius: 30px;
+}
+.menu-bar ul li:hover .sub-class-5 ul li a:hover
+{
+  color: rgb(62, 226, 255);
+}
+ 
+.sub-class-6
+{
+  display: none;
+}
+.menu-bar ul li:hover .sub-class-6 
+{
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 15px;
+  margin-left: -15px;
+  border-radius: 80px;
+}
+.menu-bar ul li:hover .sub-class-6 ul li a:hover
+{
+  color: rgb(0, 0, 0);
+}
+ 
+.sub-class-7
+{
+  display: none;
+}
+.menu-bar ul li:hover .sub-class-7
+{
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-class-7 ul
+{
+  display: block;
+  margin: 30px;
+}
+.menu-bar ul li:hover .sub-class-7 ul li
+{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 2px dotted rgb(189, 172, 172);
+  background: transparent;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-class-7 ul li a:hover
+{
+  color: rgb(0, 0, 0);
+}
+.para
+{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50);
+  text-align: center;
+  color: #fefbfb;
+  font-size: 50px;
+  font-variant:inherit;
+  -webkit-text-stroke: black;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+}
+.para1
+{
+
+}
