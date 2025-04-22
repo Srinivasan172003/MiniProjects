@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Bill Generator</title>
+    <link rel="stylesheet" href="EBProject.css">
+</head>
+
+<body>
+    <div id="topDiv">
+        <div id="equipmentsDiv">
+            <img src="images/fan.png" class="equipments" onclick="addRoom(0)" >
+            <img src="images/bulbOff.png" class="equipments" onclick="addRoom(1)" >
+            <img src="images/tvOff.png" class="equipments" onclick="addRoom(2)" >
+            <img src="images/fridgeOff.png" class="equipments" onclick="addRoom(3)" >
+            <img src="images/washingMachineOff.png" class="equipments" onclick="addRoom(4)" >
+        </div>
+        <div id="outputDiv">
+            <p><span id="unit">0</span> units</p>
+            <p>Rs.<span id="cost">0</span></p>
+        </div>
+    </div>
+    <div id="room"></div>
+    <script type="text/javascript" src="EBProject.js"></script>
+</body>
+
+</html>
