@@ -1,0 +1,57 @@
+#container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cacaca;
+}
+
+#displayContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.display {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display h1 {
+    font-size: 70px;
+}
+
+.buttons button{
+    margin: 20px 10px 0px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#lap{
+    margin-top: 50px;
+    width: 500px;
+}
+
+#lapPoints{
+    border: 1px solid grey;
+    border-radius: 10px;
+    max-height: 250px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+#lapPoints li{
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+    height: 10%;
+    margin: 5%;
+}
