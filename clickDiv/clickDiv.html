@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click On Div</title>
+    <link rel="stylesheet" href="clickDiv.css">
+</head>
+
+<body>
+    <div id="inputDiv">
+        <input type="number" id="inputBox" placeholder="Enter The Value">
+        <button onclick="addircle()">Add Point</button>
+    </div>
+    <div id="container">
+        <div id="pointstDiv">
+            <p>Total =<span id="countBox">0</span></p>
+            <div id="points"></div>
+        </div>
+        <div id="tableDiv">
+            <table border="2px">
+                <thead>
+                    <tr>
+                        <th>S.no</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="clickDiv.js"></script>
+</body>
+
+</html>

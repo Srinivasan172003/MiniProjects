@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#inputDiv{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+}
+
+#pointsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+p span{
+    margin-left: 10px;
+}
+
+#tableDiv{
+    height: 500px;
+    margin-left: 100px;
+    overflow-y: auto;
+}
+
+table{
+    width: 300px;
+}
+
+#points{
+    height: 500px;
+    width: 500px;
+    background-color: #109bff;
+    margin: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: red;
+    box-shadow: 0px 0px 20px black;
+}
+
+.circle:hover{
+    height: 22px;
+    width: 22px;
+}
